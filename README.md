@@ -36,5 +36,16 @@ def func(arr):
         
 func(arr)
 ```
-## Question 5:
+## Question 7:
+```python
+n = list(map(int,input().split()))
+print(sum(n))
+```
+## Question 8:
+```python
+n = list(map(int,input().split()))
+sum_num = sum(n)
+print("sum of num is : ",sum_num)
+print("average of num is : ",sum_num/2)
+```
 
