@@ -48,4 +48,8 @@ sum_num = sum(n)
 print("sum of num is : ",sum_num)
 print("average of num is : ",sum_num/2)
 ```
-
+## Question 9:
+```python
+String = input()
+print(String.swapcase())
+~~~
