@@ -52,4 +52,4 @@ print("average of num is : ",sum_num/2)
 ```python
 String = input()
 print(String.swapcase())
-~~~
+```
