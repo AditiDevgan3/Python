@@ -53,3 +53,23 @@ print("average of num is : ",sum_num/2)
 String = input()
 print(String.swapcase())
 ```
+## Question 10:
+```python
+String = input()
+Vowels = 0
+Consonant = 0
+words = 0
+for i in range(len(String)):
+    ch = String[i]
+    if ( (ch >= 'a' and ch <= 'z') or (ch >= 'A' and ch <= 'Z') ):
+        ch = ch.lower()
+        if (ch == 'a' or ch == 'e' or ch == 'i' 
+                        or ch == 'o' or ch == 'u'): 
+            Vowels += 1
+        else: 
+            Consonant += 1
+            
+print("Number of Vowels in the string are: ",Vowels)
+print("Number of Consonant in the string are: ",Consonant)
+print("Number of Words in the string are: ",len(String.split()))
+```
