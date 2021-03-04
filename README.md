@@ -98,3 +98,49 @@ print("Number of Vowels in the string are: ",Vowels)
 print("Number of Consonant in the string are: ",Consonant)
 print("Number of Words in the string are: ",len(String.split()))
 ```
+## Question 11:
+ Filter the list of names which starts with 's'.
+```python
+names = list(input().split())
+for i in range(len(names)):
+    if names[i][0].lower() == 's':
+        print(names[i])
+    else:
+        continue
+```
+## Question 12:
+Find the average of some list of values.
+```python
+l = list(map(int,input().split()))
+for i in range(len(l)):
+    total = sum(l) / len(l)
+print(total)
+```
+## Question 13:
+WAP which doubles every element of a list.
+```python
+l = list(map(int,input().split()))
+for i in range(len(l)):
+    sq = l[i]*2
+    print(sq)
+```
+## Question 14:
+WAP to swap case the strings of a list.
+```python
+newstring =''
+names = list(input().split())
+for i in range(len(names)):
+    if names[i].isupper():
+        newstring+=(names.lower())
+    else:
+        newstring+=(names.upper())
+print(names)
+```
+## Question 15:
+Calculating the sum of the numbers from 1 to 100.
+```python
+total=0
+for i in range(1,101):
+    total+=i
+print(total)
+```
