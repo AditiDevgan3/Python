@@ -147,10 +147,10 @@ print(total)
 ## Question 16:
 Imagine an accounting routine used in a book shop. It works on a list with sublists, which look like this:<br>
 Order Number Book Title and Author Quantity Price per Item<br>
-34587 Learning Python, Mark Lutz 4 40.95<br>
-98762 Programming Python, Mark Lutz 5 56.80<br>
-77226 Head First Python, Paul Barry 3 32.95<br>
-88112 Einführung in Python3, Bernd Klein 3 24.99<br>
+> + 34587 Learning Python, Mark Lutz 4 40.95<br>
+> + 98762 Programming Python, Mark Lutz 5 56.80<br>
+> + 77226 Head First Python, Paul Barry 3 32.95<br>
+> + 88112 Einführung in Python3, Bernd Klein 3 24.99<br>
 Write a Python program, which returns a list with 2-tuples. Each tuple consists of a the order number and the product of the price per items and the quantity. The product should be increased by 10,- € if the value of the order is smaller than 100,00 €.<br>
 Write a Python program using lambda and map.
 ```python
